@@ -5,7 +5,7 @@ public class AdualtOrNot {
         Scanner sc = new Scanner(System.in);
         int adult = sc.nextInt();
 
-        if (adult => 18)
+        if (adult >= 18)
             System.out.print("Person Is Adult!");
         else
             System.out.println("Person Is Not Adult!");

@@ -21,11 +21,10 @@ public class sort_array_in_ascending {
                   numbers[j+1] -= numbers[j];
                 }
             }
-        }
-
         System.out.println("Array Element Is :");
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] +" ");
         }
+        }
+
     }
-}
